@@ -1,16 +1,93 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
-</head>
+  <meta charset="UTF-8">
+  <title>Basic News Webpage</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+    }
 
+    .header {
+      background-color: #011e29;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    .header h1 {
+      margin: 0;
+      font-size: 32px;
+    }
+
+    .latest-news-section {
+      background-color: white;
+      width: 80%;
+      max-width: 800px;
+      margin: 30px auto;
+      padding: 20px;
+      border-radius: 8px;
+    }
+
+    .latest-news-section h2 {
+      margin-bottom: 15px;
+      color: #011e29;
+    }
+
+    .latest-news-section ul {
+      padding-left: 20px;
+    }
+
+    .latest-news-section li {
+      margin-bottom: 10px;
+    }
+
+    .pictorial-news-section {
+      background-color: white;
+      width: 80%;
+      max-width: 800px;
+      margin: 30px auto;
+      padding: 20px;
+      border-radius: 8px;
+      text-align: center;
+    }
+
+    .pictorial-news-section h2 {
+      color: #011e29;
+      margin-bottom: 20px;
+    }
+
+    .pictorial-news-section img {
+      width: 200px;
+      height: auto;
+      margin: 10px;
+      border-radius: 5px;
+    }
+  </style>
+</head>
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+  <header class="header">
+    <h1>Daily News</h1>
+  </header>
+
+  <div class="latest-news-section">
+    <h2>Latest News</h2>
+    <ul>
+      <li>Government announces new education policy reforms</li>
+      <li>Local sports team wins regional championship</li>
+      <li>Weather alert: Heavy rains expected tomorrow</li>
+    </ul>
+  </div>
+
+  <div class="pictorial-news-section">
+    <h2>Pictorial News</h2>
+    <img src="Image_one.jpg" alt="News Image 1">
+    <img src="Image_two.jpg" alt="News Image 2">
+    <img src="Image_three.jpg" alt="News Image 3">
+  </div>
 
 </body>
-
 </html>
